@@ -1,0 +1,35 @@
+{
+  "name": "onlinebrowser",
+  "version": "0.0.1",
+  "description": "Keep and edit your files on the cloud",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AchinthyaBhat/OnlineBrowser.git"
+  },
+  "keywords": [
+    "cloud",
+    "editor"
+  ],
+  "author": "achinthya.bhat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AchinthyaBhat/OnlineBrowser/issues"
+  },
+  "homepage": "https://github.com/AchinthyaBhat/OnlineBrowser#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.2",
+    "quill-delta": "^3.6.2"
+  },
+  "devDependencies": {
+    "eslint": "^4.11.0"
+  },
+  "optionalDependencies": {
+    "quill": "^1.3.4"
+  }
+}
